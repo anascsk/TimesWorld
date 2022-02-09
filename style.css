@@ -12,10 +12,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 95%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.header-container {
+    width: 95%;
 }
 .landing{
     margin-top: 50px;
@@ -26,14 +29,8 @@ body{
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    display: grid;
-    grid-template-columns: 4fr 1fr;
-  grid-gap: 15px;
-  margin: 1rem;
-  @media (max-width: 768px) {
-    grid-template-columns: 1fr 1fr;
-    margin: 0rem;
-  }
+   
+  
     
 }
 .featured-image {

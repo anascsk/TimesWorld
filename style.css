@@ -28,9 +28,13 @@ body {
   height: 400px;
   width: 95%;
   display: flex;
+  flex-wrap: wrap; 
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  /* @media only screen and (max-device-width: 600px) {
+      
+  } */
 }
 .featured-image {
   height: auto;
@@ -44,17 +48,14 @@ body {
   height: 400px;
   background-color: aquamarine;
   display: flex;
+  flex-wrap: wrap; 
   justify-content: space-around;
   align-items: center;
   margin-top: 30px;
  
 }
 .counter-wrap {
-    /* @media only screen and (max-device-width: 600px) {
-h2 {
-font-size: 12px;
-}
-} */
+  padding: 5px;
 }
 
 .footer-container {
